@@ -8,6 +8,7 @@ const computeBorderColor = (frameColor) => {
   return `border: 1.0rem solid ${frameColor};`; // Converted border width to rem
 };
 
+
 const CardContainer = styled.div`
   display: flex;
   cursor: grab;
@@ -38,15 +39,15 @@ const NikeCard = (props) => {
 
 
   return (
-    <ReactCardFlip isFlipped={faceType === "back"}>
-      <CardContainer  frameColor={frameColor} onClick={handleCardClick}>
-        <CardImage src={card.imageImportName} alt={card.name} />
-      </CardContainer>
+      <ReactCardFlip isFlipped={faceType === "back"}>
+        <CardContainer  frameColor={frameColor} onClick={handleCardClick}>
+          <CardImage src={card.imageImportName} alt={card.name} />
+        </CardContainer>
 
-      <CardContainer  frameColor={frameColor} onClick={handleCardClick}>
-        <CardImage src={yasminLogo} alt={card.name}  />
-      </CardContainer>
-    </ReactCardFlip>
+        <CardContainer  frameColor={frameColor} onClick={handleCardClick}>
+          <CardImage src={yasminLogo} alt={card.name}  />
+        </CardContainer>
+      </ReactCardFlip>
   );
 };
 
