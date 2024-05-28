@@ -4,7 +4,6 @@ import { pickRandom6cards, shuffle } from "./shuffle";
 import isEmpty from "./isEmpty";
 
 const TITLE_SIZE = 1.0; // 1rem
-let cardsGaleryHeight = 10.0;
 
 const fetchDataFromJSON = async (filePath) => {
   try {

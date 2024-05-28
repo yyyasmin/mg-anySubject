@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 import ReactCardFlip from "react-card-flip";
 import yasminLogo from "../assets/textures/yasminLogo.PNG";

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import styled from "styled-components";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NameForm from "./components/NameForm";
 import RoomsList from "./components/RoomsList";
